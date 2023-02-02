@@ -1,0 +1,22 @@
+{
+  "name": "VlendingAds",
+  "version": "0.1.0",
+  "summary": "A short description of VlendingAds.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jmsy2k/VlendingAds",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jmsy2k": "elden@vlending.co.kr"
+  },
+  "source": {
+    "git": "https://github.com/jmsy2k/VlendingAds.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "VlendingAds/Classes/**/*"
+}

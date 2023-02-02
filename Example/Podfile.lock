@@ -1,0 +1,16 @@
+PODS:
+  - VlendingAds (0.1.0)
+
+DEPENDENCIES:
+  - VlendingAds (from `../`)
+
+EXTERNAL SOURCES:
+  VlendingAds:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VlendingAds: 970f62a5097b6e66e92b8a403f201ca7cfcb27be
+
+PODFILE CHECKSUM: 95afcdb7fa00988fc62f109a2c44ea0f26151fae
+
+COCOAPODS: 1.11.3

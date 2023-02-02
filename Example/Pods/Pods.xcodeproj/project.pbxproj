@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22E183F20E0ED24375394CFDA3DCAF9C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73406DCC557303FEE98E537135AF2B5 /* ReplaceMe.swift */; };
+		45A7E3550CD5CDD48DEEAE964A6D0DC1 /* VlendingAds-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E2BA6818C05707E6C1941D15807A30C /* VlendingAds-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50BA5718BAB8471383581AA0907FAC7F /* Pods-VlendingAds_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F1D8190B80A5C899024DCC44CCD5DB /* Pods-VlendingAds_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		527A15EA7C3A27E235770B0991BBA6BC /* Pods-VlendingAds_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BFDE69FAE1C2F6327E11B9A37F81C2 /* Pods-VlendingAds_Example-dummy.m */; };
+		71F73CD50C98ED36C0313014ADB4D252 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		754CF9B04ACF3CA3586B53759170AC7E /* VlendingAds-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82991832B93AC6BBB480113948D168A0 /* VlendingAds-dummy.m */; };
+		A0C0157A2359E8B3244200FF4A0ADB51 /* Pods-VlendingAds_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 714352207996EEE29D1903473C5CA684 /* Pods-VlendingAds_Tests-dummy.m */; };
+		B80FDC543A43827CBE749B222FDA8055 /* Pods-VlendingAds_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FADBB92EDC7280748B87BEE9E16B9838 /* Pods-VlendingAds_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5395EDCD87049B7DF9E4B2C26E8D4C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D8DC2B75880A3BB170C3B01EC1DCB55B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A46A3001BC2B035220FBAE0490DC96A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DE55A09D5B379613BB0BACA0A0B04F2;
+			remoteInfo = "Pods-VlendingAds_Example";
+		};
+		E4D4FFB283AE96FD6D86C0E5D2EA24B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97607257B6E59371D5A13EACC7A23634;
+			remoteInfo = VlendingAds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016333604702982D7912311B453DC0CD /* Pods-VlendingAds_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VlendingAds_Example"; path = Pods_VlendingAds_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01888E397DDCD61ABD149B0EA9493DD6 /* VlendingAds.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VlendingAds.modulemap; sourceTree = "<group>"; };
+		027D1A3838BFC5C720F911E393870666 /* Pods-VlendingAds_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VlendingAds_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		07BFDE69FAE1C2F6327E11B9A37F81C2 /* Pods-VlendingAds_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VlendingAds_Example-dummy.m"; sourceTree = "<group>"; };
+		09611256A868689B02618A7913E2D2A2 /* VlendingAds-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VlendingAds-Info.plist"; sourceTree = "<group>"; };
+		0ABC3C4451A3C1EB37EEA555D4919CED /* Pods-VlendingAds_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VlendingAds_Example-Info.plist"; sourceTree = "<group>"; };
+		1399EC2B26F9B285EDA5A24DA5124531 /* Pods-VlendingAds_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VlendingAds_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		18F1D8190B80A5C899024DCC44CCD5DB /* Pods-VlendingAds_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VlendingAds_Example-umbrella.h"; sourceTree = "<group>"; };
+		1E2BA6818C05707E6C1941D15807A30C /* VlendingAds-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VlendingAds-umbrella.h"; sourceTree = "<group>"; };
+		320BBD9171034C04C2542E8D394EDC1A /* VlendingAds-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VlendingAds-prefix.pch"; sourceTree = "<group>"; };
+		34291AF9ABFEE048F31447CF4BF30A57 /* Pods-VlendingAds_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VlendingAds_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A17BE948DA0CEBBDBD0BDB90840D97E /* VlendingAds */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VlendingAds; path = VlendingAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1E9352E28AAC5DD80ABDF7F604A580 /* Pods-VlendingAds_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VlendingAds_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		57A992BECFF0668CAF182DAD998C75B6 /* VlendingAds.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VlendingAds.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		714352207996EEE29D1903473C5CA684 /* Pods-VlendingAds_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VlendingAds_Tests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77991D4D00FB0AE7A476A9C9B21E7F8F /* Pods-VlendingAds_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VlendingAds_Tests"; path = Pods_VlendingAds_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		790C1D06C17C1AEE7B134291BED9A334 /* Pods-VlendingAds_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VlendingAds_Tests.modulemap"; sourceTree = "<group>"; };
+		82991832B93AC6BBB480113948D168A0 /* VlendingAds-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VlendingAds-dummy.m"; sourceTree = "<group>"; };
+		8CE99D6FD5B212E2B8F99E940E7D8511 /* Pods-VlendingAds_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VlendingAds_Tests-Info.plist"; sourceTree = "<group>"; };
+		93597A625F820B27A103D56CB92F6B46 /* VlendingAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VlendingAds.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B01BDCC87297A0E5E818DB95D6B1CCDB /* Pods-VlendingAds_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VlendingAds_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0270E4ED467E97EBCFF039162D42963 /* Pods-VlendingAds_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VlendingAds_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B21BCF639D1ED8F0331732638866D480 /* Pods-VlendingAds_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VlendingAds_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B7028D70B3EADF948E894D5801CC263C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B95AAA67B358F920E4880814846A227E /* Pods-VlendingAds_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VlendingAds_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BBA986510271BEB8E891D1A1D64039EC /* VlendingAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VlendingAds.debug.xcconfig; sourceTree = "<group>"; };
+		C73406DCC557303FEE98E537135AF2B5 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = VlendingAds/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		E2BD83BAA71EDD9F45B4B3FB7E54FDD1 /* Pods-VlendingAds_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VlendingAds_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F7D45D476841CDA75A063E48FEEE3A96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FABECA2CC7E1A5E4C7E15A4525B83377 /* Pods-VlendingAds_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VlendingAds_Example.modulemap"; sourceTree = "<group>"; };
+		FADBB92EDC7280748B87BEE9E16B9838 /* Pods-VlendingAds_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VlendingAds_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35F9C98DB7EDA1C0B0856C08455E9844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F73CD50C98ED36C0313014ADB4D252 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B691389B3349FE529CC8B1F0920FF7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DC2B75880A3BB170C3B01EC1DCB55B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9CBA198748EB1B31605AD549E2FF2AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5395EDCD87049B7DF9E4B2C26E8D4C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FBE98BC9A35C92C58DEF845C83FFF97 /* Pods-VlendingAds_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				790C1D06C17C1AEE7B134291BED9A334 /* Pods-VlendingAds_Tests.modulemap */,
+				34291AF9ABFEE048F31447CF4BF30A57 /* Pods-VlendingAds_Tests-acknowledgements.markdown */,
+				B21BCF639D1ED8F0331732638866D480 /* Pods-VlendingAds_Tests-acknowledgements.plist */,
+				714352207996EEE29D1903473C5CA684 /* Pods-VlendingAds_Tests-dummy.m */,
+				8CE99D6FD5B212E2B8F99E940E7D8511 /* Pods-VlendingAds_Tests-Info.plist */,
+				FADBB92EDC7280748B87BEE9E16B9838 /* Pods-VlendingAds_Tests-umbrella.h */,
+				4A1E9352E28AAC5DD80ABDF7F604A580 /* Pods-VlendingAds_Tests.debug.xcconfig */,
+				1399EC2B26F9B285EDA5A24DA5124531 /* Pods-VlendingAds_Tests.release.xcconfig */,
+			);
+			name = "Pods-VlendingAds_Tests";
+			path = "Target Support Files/Pods-VlendingAds_Tests";
+			sourceTree = "<group>";
+		};
+		1266E1BA87EF6B03A8525006698FBBBB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E54E45B0F0F4E5A037D5BE12E74692B /* VlendingAds */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3E54E45B0F0F4E5A037D5BE12E74692B /* VlendingAds */ = {
+			isa = PBXGroup;
+			children = (
+				C73406DCC557303FEE98E537135AF2B5 /* ReplaceMe.swift */,
+				A7786A6FB1448F3A4F2D3E81BC247298 /* Pod */,
+				450D62E80D030FC66A1870587F8C88FB /* Support Files */,
+			);
+			name = VlendingAds;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		40B3CBB3A15F4A76E584B0EA37DA8155 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3F1F6AB3A9AD3076B163B904BCCD739 /* Pods-VlendingAds_Example */,
+				0FBE98BC9A35C92C58DEF845C83FFF97 /* Pods-VlendingAds_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		450D62E80D030FC66A1870587F8C88FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01888E397DDCD61ABD149B0EA9493DD6 /* VlendingAds.modulemap */,
+				82991832B93AC6BBB480113948D168A0 /* VlendingAds-dummy.m */,
+				09611256A868689B02618A7913E2D2A2 /* VlendingAds-Info.plist */,
+				320BBD9171034C04C2542E8D394EDC1A /* VlendingAds-prefix.pch */,
+				1E2BA6818C05707E6C1941D15807A30C /* VlendingAds-umbrella.h */,
+				BBA986510271BEB8E891D1A1D64039EC /* VlendingAds.debug.xcconfig */,
+				93597A625F820B27A103D56CB92F6B46 /* VlendingAds.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VlendingAds";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A7786A6FB1448F3A4F2D3E81BC247298 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F7D45D476841CDA75A063E48FEEE3A96 /* LICENSE */,
+				B7028D70B3EADF948E894D5801CC263C /* README.md */,
+				57A992BECFF0668CAF182DAD998C75B6 /* VlendingAds.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1266E1BA87EF6B03A8525006698FBBBB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DC03D8E9FBE3DD9E690DDFF76F1ACE2E /* Products */,
+				40B3CBB3A15F4A76E584B0EA37DA8155 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC03D8E9FBE3DD9E690DDFF76F1ACE2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				016333604702982D7912311B453DC0CD /* Pods-VlendingAds_Example */,
+				77991D4D00FB0AE7A476A9C9B21E7F8F /* Pods-VlendingAds_Tests */,
+				4A17BE948DA0CEBBDBD0BDB90840D97E /* VlendingAds */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3F1F6AB3A9AD3076B163B904BCCD739 /* Pods-VlendingAds_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FABECA2CC7E1A5E4C7E15A4525B83377 /* Pods-VlendingAds_Example.modulemap */,
+				027D1A3838BFC5C720F911E393870666 /* Pods-VlendingAds_Example-acknowledgements.markdown */,
+				B01BDCC87297A0E5E818DB95D6B1CCDB /* Pods-VlendingAds_Example-acknowledgements.plist */,
+				07BFDE69FAE1C2F6327E11B9A37F81C2 /* Pods-VlendingAds_Example-dummy.m */,
+				E2BD83BAA71EDD9F45B4B3FB7E54FDD1 /* Pods-VlendingAds_Example-frameworks.sh */,
+				0ABC3C4451A3C1EB37EEA555D4919CED /* Pods-VlendingAds_Example-Info.plist */,
+				18F1D8190B80A5C899024DCC44CCD5DB /* Pods-VlendingAds_Example-umbrella.h */,
+				B0270E4ED467E97EBCFF039162D42963 /* Pods-VlendingAds_Example.debug.xcconfig */,
+				B95AAA67B358F920E4880814846A227E /* Pods-VlendingAds_Example.release.xcconfig */,
+			);
+			name = "Pods-VlendingAds_Example";
+			path = "Target Support Files/Pods-VlendingAds_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7C1F2BF4D5C16EE4E893043C2300413D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7E3550CD5CDD48DEEAE964A6D0DC1 /* VlendingAds-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4189B85302944BA320436835620205 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50BA5718BAB8471383581AA0907FAC7F /* Pods-VlendingAds_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B02DA0AB2DFD58463B659B805CA6711 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80FDC543A43827CBE749B222FDA8055 /* Pods-VlendingAds_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D7161D906191A2C9CAF99D0C2670594 /* Pods-VlendingAds_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453944E16B47A084F00ECB8B810B8C2B /* Build configuration list for PBXNativeTarget "Pods-VlendingAds_Tests" */;
+			buildPhases = (
+				8B02DA0AB2DFD58463B659B805CA6711 /* Headers */,
+				4A16CEC3BB77659A021551083D234331 /* Sources */,
+				E9CBA198748EB1B31605AD549E2FF2AF /* Frameworks */,
+				36675D84C019B3216D4425C60FC486DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D636F24A5400E9A99D847F40A10DA6BD /* PBXTargetDependency */,
+			);
+			name = "Pods-VlendingAds_Tests";
+			productName = Pods_VlendingAds_Tests;
+			productReference = 77991D4D00FB0AE7A476A9C9B21E7F8F /* Pods-VlendingAds_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DE55A09D5B379613BB0BACA0A0B04F2 /* Pods-VlendingAds_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35DD95DE2BDD68C9A712769BD9BF6DB4 /* Build configuration list for PBXNativeTarget "Pods-VlendingAds_Example" */;
+			buildPhases = (
+				7D4189B85302944BA320436835620205 /* Headers */,
+				45C8E184B79C0007521277B155AACC7D /* Sources */,
+				B691389B3349FE529CC8B1F0920FF7C1 /* Frameworks */,
+				CF94C239246BB022F819674FA95DC00A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BBAB47ACBC2B40CCEA85F8C904A09E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-VlendingAds_Example";
+			productName = Pods_VlendingAds_Example;
+			productReference = 016333604702982D7912311B453DC0CD /* Pods-VlendingAds_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		97607257B6E59371D5A13EACC7A23634 /* VlendingAds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FAFB1F1B776AE2E79C532E12A22162 /* Build configuration list for PBXNativeTarget "VlendingAds" */;
+			buildPhases = (
+				7C1F2BF4D5C16EE4E893043C2300413D /* Headers */,
+				01AB74E28B3E538D651568D0DED54A84 /* Sources */,
+				35F9C98DB7EDA1C0B0856C08455E9844 /* Frameworks */,
+				B8C564FD999B6B6225DF9A23B43B3DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VlendingAds;
+			productName = VlendingAds;
+			productReference = 4A17BE948DA0CEBBDBD0BDB90840D97E /* VlendingAds */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DC03D8E9FBE3DD9E690DDFF76F1ACE2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DE55A09D5B379613BB0BACA0A0B04F2 /* Pods-VlendingAds_Example */,
+				0D7161D906191A2C9CAF99D0C2670594 /* Pods-VlendingAds_Tests */,
+				97607257B6E59371D5A13EACC7A23634 /* VlendingAds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36675D84C019B3216D4425C60FC486DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C564FD999B6B6225DF9A23B43B3DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF94C239246BB022F819674FA95DC00A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01AB74E28B3E538D651568D0DED54A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E183F20E0ED24375394CFDA3DCAF9C /* ReplaceMe.swift in Sources */,
+				754CF9B04ACF3CA3586B53759170AC7E /* VlendingAds-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C8E184B79C0007521277B155AACC7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527A15EA7C3A27E235770B0991BBA6BC /* Pods-VlendingAds_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A16CEC3BB77659A021551083D234331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C0157A2359E8B3244200FF4A0ADB51 /* Pods-VlendingAds_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BBAB47ACBC2B40CCEA85F8C904A09E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VlendingAds;
+			target = 97607257B6E59371D5A13EACC7A23634 /* VlendingAds */;
+			targetProxy = E4D4FFB283AE96FD6D86C0E5D2EA24B3 /* PBXContainerItemProxy */;
+		};
+		D636F24A5400E9A99D847F40A10DA6BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VlendingAds_Example";
+			target = 7DE55A09D5B379613BB0BACA0A0B04F2 /* Pods-VlendingAds_Example */;
+			targetProxy = 4A46A3001BC2B035220FBAE0490DC96A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46E3A08B79893C248B671A1FA0C7E244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95AAA67B358F920E4880814846A227E /* Pods-VlendingAds_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VlendingAds_Example/Pods-VlendingAds_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VlendingAds_Example/Pods-VlendingAds_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49C538D06FE729DAC29844F7CE665C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0270E4ED467E97EBCFF039162D42963 /* Pods-VlendingAds_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VlendingAds_Example/Pods-VlendingAds_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VlendingAds_Example/Pods-VlendingAds_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9692ADCE58DEF2B500B92C5D45F8684D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA986510271BEB8E891D1A1D64039EC /* VlendingAds.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VlendingAds/VlendingAds-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VlendingAds/VlendingAds-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VlendingAds/VlendingAds.modulemap";
+				PRODUCT_MODULE_NAME = VlendingAds;
+				PRODUCT_NAME = VlendingAds;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E0F19F4695866CEB638D0FE5E19908B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93597A625F820B27A103D56CB92F6B46 /* VlendingAds.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VlendingAds/VlendingAds-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VlendingAds/VlendingAds-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VlendingAds/VlendingAds.modulemap";
+				PRODUCT_MODULE_NAME = VlendingAds;
+				PRODUCT_NAME = VlendingAds;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B79046D862EF66797EAFAF744C7B725A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1E9352E28AAC5DD80ABDF7F604A580 /* Pods-VlendingAds_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VlendingAds_Tests/Pods-VlendingAds_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VlendingAds_Tests/Pods-VlendingAds_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E0814CA0D6719A1796DF3BDF478F9CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1399EC2B26F9B285EDA5A24DA5124531 /* Pods-VlendingAds_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VlendingAds_Tests/Pods-VlendingAds_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VlendingAds_Tests/Pods-VlendingAds_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09FAFB1F1B776AE2E79C532E12A22162 /* Build configuration list for PBXNativeTarget "VlendingAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9692ADCE58DEF2B500B92C5D45F8684D /* Debug */,
+				9E0F19F4695866CEB638D0FE5E19908B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35DD95DE2BDD68C9A712769BD9BF6DB4 /* Build configuration list for PBXNativeTarget "Pods-VlendingAds_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C538D06FE729DAC29844F7CE665C92 /* Debug */,
+				46E3A08B79893C248B671A1FA0C7E244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453944E16B47A084F00ECB8B810B8C2B /* Build configuration list for PBXNativeTarget "Pods-VlendingAds_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B79046D862EF66797EAFAF744C7B725A /* Debug */,
+				E0814CA0D6719A1796DF3BDF478F9CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
